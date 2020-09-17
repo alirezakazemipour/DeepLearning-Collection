@@ -2,9 +2,6 @@
 This repository consists of codes of some different fields of Deep Learning; such as GANs, Series prediction, Style transfer, Deep Dream, Auto encoders and etc.  
 
 
-
-
-
 ## Demo  
 ### Deep Dream
 > Layers' contribution to project their outputs of the [Inception V3](https://arxiv.org/abs/1512.00567) model on the input image.
@@ -37,8 +34,10 @@ Epoch 500| Epoch 15000| Epoch 30000| Epoch 40000
 :--------------:|:--------------:|:--------------:|:--------------:
 ![](GANs/DCGAN/step500.png) |![](GANs/DCGAN/step15000.png) | ![](GANs/DCGAN/step30000.png)| ![](GANs/DCGAN/step40000.png)
 
-
-
+- Auxiliary GAN on MNIST data set.
+Epoch 5000| Epoch 10000| Epoch 15000| Epoch 20000
+:--------------:|:--------------:|:--------------:|:--------------:
+![](GANs/AGAN/step5000.png) |![](GANs/AGAN/step10000.png) | ![](GANs/AGAN/step15000.png)| ![](GANs/AGAN/step20000.png)
 
 
 
