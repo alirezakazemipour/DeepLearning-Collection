@@ -7,16 +7,26 @@ This repository consists of codes of some different fields of Deep Learning; suc
 
 ## Demo  
 ### Deep Dream
-> Layers contributions to project their layer's outputs of the [Inception V3](https://arxiv.org/abs/1512.00567) model to the input image.
-- "mixed2": 0.2
-- "mixed3": 3.0
-- "mixed4": 2.0
-- "mixed5": 1.5
+> Layers' contribution to project their outputs of the [Inception V3](https://arxiv.org/abs/1512.00567) model on the input image.
+- `"mixed2": 0.2`
+- `"mixed3": 3.0`
+- `"mixed4": 2.0`
+- `"mixed5": 1.5`
 
 Input image| Reconstructed image
 :--------------:|:------------------:
 ![](DeepDream/jungle.jpeg) |![](DeepDream/result.png) 
 ### Style Transfer
+>Style and content layers both have been chosen from [VGG19](https://arxiv.org/abs/1409.1556) model.  
+
+-  `content layer: "block5_conv2"`
+-  `style layers:{  
+               "block1_conv1",
+               "block2_conv1",
+               "block3_conv1",
+               "block4_conv1",
+               "block5_conv1"`}
+
 Content image| Style image| Output image
 :--------------:|:--------------:|:--------------:
 ![](StyleTransfer/content.png) |![](StyleTransfer/style.jpg) | ![](StyleTransfer/Output.jpg)
