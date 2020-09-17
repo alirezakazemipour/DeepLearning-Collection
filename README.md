@@ -5,7 +5,7 @@ This repository consists of codes of some different fields of Deep Learning; suc
 
 
 
-## Demo
+## Demo  
 ### Deep Dream
 > Layers contributions to project their layer's outputs of the [Inception V3](https://arxiv.org/abs/1512.00567) model to the input image.
 - "mixed2": 0.2
@@ -17,8 +17,9 @@ Input image| Reconstructed image
 :--------------:|:------------------:
 ![](DeepDream/jungle.jpeg) |![](DeepDream/result.png) 
 ### Style Transfer
-
-
+Content image| Style image| Output image
+:--------------:|:--------------:|:--------------:
+![](StyleTransfer/content.png) |![](StyleTransfer/style.jpg) | ![](StyleTransfer/Output.jpg)
 
 
 
