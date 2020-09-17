@@ -29,25 +29,33 @@ Content image| Style image| Output image
 ![](StyleTransfer/content.png) |![](StyleTransfer/style.jpg) | ![](StyleTransfer/Output.jpg)
 
 ### GAN  
-- Deep Convolutional GAN on MNIST data set.
+- **Deep Convolutional GAN on MNIST data set**.
 
 Epoch 500| Epoch 15000| Epoch 30000| Epoch 40000
 :--------------:|:--------------:|:--------------:|:--------------:
 ![](GANs/DCGAN/step500.png) |![](GANs/DCGAN/step15000.png) | ![](GANs/DCGAN/step30000.png)| ![](GANs/DCGAN/step40000.png)
 
-- Auxiliary GAN on MNIST data set.
+- **Auxiliary GAN on MNIST data set**.
 
 Epoch 5000| Epoch 10000| Epoch 15000| Epoch 20000
 :--------------:|:--------------:|:--------------:|:--------------:
 ![](GANs/AUXGAN/step5000.png) |![](GANs/AUXGAN/step10000.png) | ![](GANs/AUXGAN/step15000.png)| ![](GANs/AUXGAN/step20000.png)
 
 ### Auto Encoders
-- Simple Auto Encoder on MNIST data set.
+- **Simple Auto Encoder on MNIST data set**.
 
 Input image| Decodes image
 :--------------:|:------------------:
 ![](AutoEncoders/SimpleAutoEncoder/input.png) |![](AutoEncoders/SimpleAutoEncoder/decoded.png) 
 
+- **Colorization Auto Encoder on CIFAR10 data set**.
+RGB input image| Grayscale generated image
+:--------------:|:------------------:
+![](AutoEncoders/ColorizationAE/color.png) |![](AutoEncoders/ColorizationAE/generated_gray.png) 
+
+Grayscale input image| RGB generated image
+:--------------:|:------------------:
+![](AutoEncoders/ColorizationAE/gray.png) |![](AutoEncoders/ColorizationAE/generated_color.png) 
 
 
 
