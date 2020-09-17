@@ -30,7 +30,11 @@ Input image| Reconstructed image
 Content image| Style image| Output image
 :--------------:|:--------------:|:--------------:
 ![](StyleTransfer/content.png) |![](StyleTransfer/style.jpg) | ![](StyleTransfer/Output.jpg)
-
+### GAN
+- Deep Convolutional GAN on MNIST data set.  
+Epoch 500| Epoch 15000| Epoch 30000| Epoch 40000
+:--------------:|:--------------:|:--------------:
+![](GANs/DCGAN/step500.png) |![](GANs/DCGAN/step15000.png) | ![](GANs/DCGAN/step30000.png)| ![](GANs/DCGAN/step40000.png)
 
 
 
