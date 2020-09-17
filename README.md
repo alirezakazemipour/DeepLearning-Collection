@@ -27,6 +27,7 @@ Input image| Reconstructed image
 Content image| Style image| Output image
 :--------------:|:--------------:|:--------------:
 ![](StyleTransfer/content.png) |![](StyleTransfer/style.jpg) | ![](StyleTransfer/Output.jpg)
+
 ### GAN  
 - Deep Convolutional GAN on MNIST data set.
 
@@ -35,11 +36,17 @@ Epoch 500| Epoch 15000| Epoch 30000| Epoch 40000
 ![](GANs/DCGAN/step500.png) |![](GANs/DCGAN/step15000.png) | ![](GANs/DCGAN/step30000.png)| ![](GANs/DCGAN/step40000.png)
 
 - Auxiliary GAN on MNIST data set.
+- 
 Epoch 5000| Epoch 10000| Epoch 15000| Epoch 20000
 :--------------:|:--------------:|:--------------:|:--------------:
-![](GANs/AGAN/step5000.png) |![](GANs/AGAN/step10000.png) | ![](GANs/AGAN/step15000.png)| ![](GANs/AGAN/step20000.png)
+![](GANs/AUXGAN/step5000.png) |![](GANs/AUXGAN/step10000.png) | ![](GANs/AUXGAN/step15000.png)| ![](GANs/AUXGAN/step20000.png)
 
+### Auto Encoders
+- Simple Auto Encoder on MNIST data set.
+Input image| Decodes image
 
+:--------------:|:------------------:
+![](AutoEncoders/SimpleAutoEncoder/input.png) |![](AutoEncoders/SimpleAutoEncoder/decoded.png) 
 
 
 
