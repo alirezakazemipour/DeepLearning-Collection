@@ -49,6 +49,7 @@ Input image| Decodes image
 ![](AutoEncoders/SimpleAutoEncoder/input.png) |![](AutoEncoders/SimpleAutoEncoder/decoded.png) 
 
 - **Colorization Auto Encoder on CIFAR10 data set**.
+
 RGB input image| Grayscale generated image
 :--------------:|:------------------:
 ![](AutoEncoders/ColorizationAE/color.png) |![](AutoEncoders/ColorizationAE/generated_gray.png) 
