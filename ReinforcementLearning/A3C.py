@@ -5,14 +5,6 @@ import  tensorflow as tf
 import os
 import threading
 from matplotlib import pyplot as plt
-# import datetime
-
-# log_name = datetime.datetime.now()
-
-# writer = tf.summary.FileWriter(logdir="./log/"+str(log_name))
-# episode_reward = 0
-# tf.summary.scalar("reward", episode_reward)
-# write_op = tf.summary.merge_all()
 
 env_name = "Pendulum-v0"
 intro_env = gym.make(env_name)
@@ -273,14 +265,14 @@ if __name__ == '__main__':
             agent = Worker("W_2")
         saver = tf.train.Saver()
         saver.restore(sess, 'model_test_now/pendulum.ckpt')
-
-        state = agent.env.reset()
+        env = wrappers.Monitor(agent.env, "./videos", video_callable=lambda episode_id: True, force=True)
+        state = env.reset()
         for _ in range(5000):
             agent.env.render()
             x = input()
             action = agent.ac.select_action(state)
-            next_state, reward, done, info = agent.env.step(action)
+            next_state, reward, done, info = env.step(action)
             state = next_state
             if done:
-                state = agent.env.reset()
+                state = env.reset()
                 print('env has been reset')

@@ -58,7 +58,13 @@ Grayscale input image| RGB generated image
 :--------------:|:------------------:
 ![](AutoEncoders/ColorizationAE/gray.png) |![](AutoEncoders/ColorizationAE/generated_color.png) 
 
+### Reinforcement learning
+- **A3C**.
 
+<p align="center">
+  <img src="ReinforcementLearning/A3C.gif" height=250>
+</p>
 
 ## Acknowledgement
 All credits goes to [Pooya-Mohammadi-K](https://github.com/Pooya-Mohammadi-K). The codes have been implemented in his [Advanced Deep Learning](https://github.com/Practical-AI/AdvancedDeepLearning) class conducted in K.N Toosi University of technology, summer 2019. Persian videos of the class is available on [youtube](https://www.youtube.com/watch?v=AChPRCwZW4s&list=PL2g_5adpoaeL2bWnE5K-ctgjCn1HbmHGv).
+
