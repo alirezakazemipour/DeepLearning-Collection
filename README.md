@@ -32,18 +32,22 @@ Content image| Style image| Output image
 
 ### GAN  
 - **Deep Convolutional GAN on MNIST data set**.
-> [code.](https://github.com/alirezakazemipour/DeepLearning-Collection/blob/master/GANs/DeepConvolutionalGan.ipynb)  
 
 Epoch 500| Epoch 15000| Epoch 30000| Epoch 40000
 :--------------:|:--------------:|:--------------:|:--------------:
-![](GANs/DCGAN/step500.png) |![](GANs/DCGAN/step15000.png) | ![](GANs/DCGAN/step30000.png)| ![](GANs/DCGAN/step40000.png)
+![](GANs/DCGAN/step500.png) |![](GANs/DCGAN/step15000.png) | ![](GANs/DCGAN/step30000.png)| ![](GANs/DCGAN/step40000.png)  
+
+> [code.](https://github.com/alirezakazemipour/DeepLearning-Collection/blob/master/GANs/DeepConvolutionalGan.ipynb)  
+
 
 - **Auxiliary GAN on MNIST data set**.
-> [code.](https://github.com/alirezakazemipour/DeepLearning-Collection/blob/master/GANs/AuxiliaryGan.ipynb)  
 
 Epoch 5000| Epoch 10000| Epoch 15000| Epoch 20000
 :--------------:|:--------------:|:--------------:|:--------------:
-![](GANs/AUXGAN/step5000.png) |![](GANs/AUXGAN/step10000.png) | ![](GANs/AUXGAN/step15000.png)| ![](GANs/AUXGAN/step20000.png)
+![](GANs/AUXGAN/step5000.png) |![](GANs/AUXGAN/step10000.png) | ![](GANs/AUXGAN/step15000.png)| ![](GANs/AUXGAN/step20000.png)  
+
+> [code.](https://github.com/alirezakazemipour/DeepLearning-Collection/blob/master/GANs/AuxiliaryGan.ipynb)  
+
 
 ### Auto Encoders
 - **Simple Auto Encoder on MNIST data set**.
