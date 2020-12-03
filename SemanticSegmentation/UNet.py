@@ -70,7 +70,7 @@ def generate_train(aug_dict,
 
 def generate_test(path, num_img = 30, imgsize = (image_size, image_size), as_gray = True):
     for i in range(num_img):
-        img = io.imread(os.path.join(path, "{}.png".format(i)), as_grey = as_gray)
+        img = io.imread(os.path.join(path, "{}.png".format(i)), as_gray = as_gray)
         img /= 255
         img = transform.resize(img, imgsize)
         img = np.reshape(img, (1,) + img.shape + (1,))
@@ -211,10 +211,16 @@ checkpoint = ModelCheckpoint(filepath=model_name,
                              monitor="val_loss",
                              verbose=1,
                              save_best_only=True)
+# Train for 10 epochs
+
 model.fit_generator(generator,
                     steps_per_epoch = epochs // BS,
-                    epochs = 1,
+                    epochs = 10,
                     callbacks = [checkpoint])
+
+# Save model for further use
+
+model.save_weights(model_name)
 
 # Test generator
 test_generator = generate_test("./data/membrane/test")
